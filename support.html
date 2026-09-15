@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#0b0b10">
+<meta name="description" content="Support and FAQ for Feel the Music (iPhone) and Feel the Music Conductor (Mac).">
+<title>Support – Feel the Music</title>
+<style>
+  :root {
+    --bg: #0b0b10;
+    --panel: #14141c;
+    --line: #262633;
+    --text: #ececf2;
+    --muted: #a7a7b8;
+    --accent: #FF2D78;
+    --accent-soft: rgba(255, 45, 120, 0.14);
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 28px 20px 56px; }
+  .nav { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 20px; padding-bottom: 20px; border-bottom: 1px solid var(--line); }
+  .brand { font-weight: 700; color: var(--text); text-decoration: none; }
+  .brand b { color: var(--accent); }
+  .nav .links { margin-left: auto; display: flex; gap: 20px; }
+  .nav .links a { color: var(--muted); text-decoration: none; }
+  .nav .links a:hover, .nav .links a[aria-current="page"] { color: var(--accent); }
+  h1 { font-size: 2.1rem; line-height: 1.15; letter-spacing: -0.02em; margin: 40px 0 8px; }
+  h2 { font-size: 1.3rem; margin: 44px 0 14px; padding-left: 12px; border-left: 3px solid var(--accent); }
+  h3 { font-size: 1.08rem; margin: 0 0 8px; }
+  p { margin: 0 0 14px; }
+  a { color: var(--accent); }
+  ul, ol { padding-left: 22px; margin: 0 0 14px; }
+  li { margin-bottom: 6px; }
+  .lede { font-size: 1.1rem; color: var(--muted); margin-bottom: 24px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px; margin-bottom: 12px; }
+  .card p:last-child, .card ul:last-child { margin-bottom: 0; }
+  .kicker { color: var(--accent); font-size: 0.82rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; margin-bottom: 4px; }
+  .steps { list-style: none; counter-reset: step; padding: 0; margin: 0 0 18px; }
+  .steps li { position: relative; padding-left: 52px; margin-bottom: 16px; }
+  .steps li::before { counter-increment: step; content: counter(step); position: absolute; left: 0; top: 0; width: 36px; height: 36px; border-radius: 50%; background: var(--accent); color: #fff; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+  .contact { border-color: var(--accent); }
+  code { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.92em; background: var(--accent-soft); padding: 1px 6px; border-radius: 6px; }
+  footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.92rem; }
+  footer a { color: var(--muted); }
+  @media (max-width: 480px) {
+    h1 { font-size: 1.7rem; }
+    .nav .links { margin-left: 0; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="nav" aria-label="Site">
+    <a class="brand" href="./">Feel the <b>Music</b></a>
+    <span class="links">
+      <a href="privacy.html">Privacy</a>
+      <a href="support.html" aria-current="page">Support</a>
+    </span>
+  </nav>
+
+  <main>
+    <h1>Support</h1>
+    <p class="lede">Help for Feel the Music on iPhone and Feel the Music Conductor on Mac. If the answer is not here, email <a href="mailto:prokaranvir@gmail.com">prokaranvir@gmail.com</a>.</p>
+
+    <div class="grid">
+      <div class="card">
+        <div class="kicker">Requirements</div>
+        <ul>
+          <li>An iPhone running iOS 17 or later with Feel the Music installed.</li>
+          <li>A Mac running macOS 14.4 or later with Feel the Music Conductor installed.</li>
+          <li>Both on the same Wi‑Fi network.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="kicker">Quick start</div>
+        <ol class="steps">
+          <li>Open Feel the Music Conductor on the Mac and allow System Audio Recording and Local Network when asked.</li>
+          <li>Open Feel the Music on each iPhone and allow Local Network when asked.</li>
+          <li>Play music on the Mac. The phones play it in sync and vibrate with the beat.</li>
+        </ol>
+      </div>
+    </div>
+
+    <h2>Frequently asked questions</h2>
+
+    <div class="card">
+      <h3>My phone can't find the Mac.</h3>
+      <ul>
+        <li>Make sure the iPhone and the Mac are on the <strong>same Wi‑Fi network</strong>. A phone on cellular data or on a different network will not see the Mac.</li>
+        <li>Allow <strong>Local Network</strong> access for the app. If you tapped "Don't Allow" when the app first asked, turn it on in Settings → Privacy &amp; Security → Local Network → Feel the Music.</li>
+        <li>Make sure Feel the Music Conductor is open on the Mac and has Local Network access (System Settings → Privacy &amp; Security → Local Network).</li>
+        <li>Some guest, hotel, office and campus networks stop devices from seeing each other. A home network or a router you control works best.</li>
+        <li>Still nothing? Quit and reopen the app on the phone so it searches again.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>There's no sound coming from the Mac.</h3>
+      <p>That is expected. While the Conductor is streaming, the Mac's own speakers are kept muted so the sound comes from the phones and everyone stays in sync. The Mac's sound comes back when you stop streaming or quit the Conductor.</p>
+    </div>
+
+    <div class="card">
+      <h3>The phone isn't vibrating.</h3>
+      <p>Haptics only play while the phone is <strong>unlocked</strong> with Feel the Music open on screen. If the phone locks or you switch to another app, the vibrations stop until you come back.</p>
+    </div>
+
+    <div class="card">
+      <h3>The audio through my AirPods or Bluetooth speaker is late.</h3>
+      <p>Bluetooth adds its own delay on top of the stream, so AirPods, Bluetooth headphones and Bluetooth speakers will sound late compared with the other phones and with the haptics. For the tightest sync, play through the phone's built‑in speaker.</p>
+    </div>
+
+    <div class="card">
+      <h3>Can I try it without a Mac?</h3>
+      <p>Yes. The iPhone app's demo mode plays a built‑in track with haptics on the phone alone. It does not need a Mac or a network connection.</p>
+    </div>
+
+    <div class="card">
+      <h3>Does either app collect anything?</h3>
+      <p>No. There are no accounts, no analytics and no servers; the apps only talk to each other on your local network. See the <a href="privacy.html">privacy policy</a>.</p>
+    </div>
+
+    <h2>Contact</h2>
+    <div class="card contact">
+      <p>Email <a href="mailto:prokaranvir@gmail.com">prokaranvir@gmail.com</a>. So the problem can be found quickly, please include:</p>
+      <ul>
+        <li>Your iPhone model and iOS version, and your Mac model and macOS version.</li>
+        <li>What you did, what you expected and what happened instead.</li>
+        <li>If the Mac was involved: the Conductor keeps a log of each session in the <code>feel-the-music-runs</code> folder in your home folder. Attaching the <code>run.jsonl</code> from the affected session helps a lot.</li>
+      </ul>
+    </div>
+  </main>
+
+  <footer>
+    <p>Feel the Music and Feel the Music Conductor are made by Karanvir Khanna. <a href="./">Home</a> · <a href="privacy.html">Privacy</a></p>
+  </footer>
+</div>
+</body>
+</html>
